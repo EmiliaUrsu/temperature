@@ -1,5 +1,5 @@
-let temperature_input = document.getElementById("temperature-input")
 let termometer_indicator = document.getElementById("termometer-indicator")
+let temperature_input = document.getElementById("temperature-input")
 let temp_select = document.getElementById("temp-select")
 let termometer_digits = document.getElementById("termometer-digits").children
 let value_temperature_width = parseInt(termometer_indicator.style.width)
