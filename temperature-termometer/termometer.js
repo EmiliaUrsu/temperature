@@ -20,7 +20,5 @@ function updateTermometer() {
   else {
     termometer_indicator.style.width = value_temperature_width + "px" }
 }
-
-
 temperature_input.onkeyup = updateTermometer
 temp_select.onchange = changeTemp
